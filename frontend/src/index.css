@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
+.point-popup .leaflet-popup-content-wrapper {
+    background: #ffffff;
+    border: 1px solid #d1fae5;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.25);
+    padding: 12px;
+}
+
+.point-popup .leaflet-popup-content {
+    margin: 0;
+}
+
+.point-popup .leaflet-popup-tip {
+    background: #ffffff;
+    border: 1px solid #d1fae5;
+}
